@@ -1,4 +1,4 @@
-import './error.css'
+import './Error.css'
 import {Logo} from '../../Components/Logo'
 
 import {Link} from 'react-router-dom'
@@ -11,7 +11,7 @@ export default function Error(){
             <p>page not found!!</p>
 
             <Link className='link' to="/">
-               voltar para a home.
+               HOME
             </Link>
            
         </div>

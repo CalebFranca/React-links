@@ -1,16 +1,17 @@
 .error{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color: #FFF;
-}
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: white;
+    }
+
 
 .error h1{
     margin-bottom: 6px;
-}
+}    
 
 .error p {
     font-style: italic;
@@ -22,12 +23,11 @@
     margin-top: 14px;
     border-radius: 4px;
     color: #000;
-    transition: background-color, transform 0.5s;
-
+    transition:backgroundColor, transform 0.5;
 }
 
 .error .link:hover{
     background-color: #FFF;
     transform: scale(1.05);
-    
+
 }
